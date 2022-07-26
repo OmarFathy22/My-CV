@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+
+}
+body{
+    background-image: linear-gradient(to left , black , grey);
+}
+header h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.sec{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 200px;
+    padding-top: 150px ;
+    /* text-align: center; */
+    height: auto;
+
+
+}
+.sec h1 , h2{
+ padding:17px 0;
+}
+.sec h1{
+    font-size: 300%;
+}
+.myimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-right: 1;
+}
+.aboutme{
+    margin-top: 20px;
+}
+.about h1{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    font-size: 30px;
+}
+.about h3{
+    background-color: gray;
+    border-radius: 10px;
+    margin: 20px 20px ;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 25px;
+}
+.hh{
+    margin-bottom: 20px;
+}
+
+.sk h2{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(154, 141, 141);
+    border-radius: 10px;
+    color: black;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
